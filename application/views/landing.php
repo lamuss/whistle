@@ -97,65 +97,58 @@
 	</div>
 </aside>
 
-<section class="bg-primary" style="padding-top: 40px;">
+<section id="start" class="bg-primary" style="padding-top: 40px;">
 	<div class="container">
 		<div class="row">
-			<div class="text1">
-				<p style="width: 270px; text-align: center;">				<img src="<?=$baseurl;?>assets/img/icon_whistle.png" style="margin-bottom: 25px;"><br>Scorri sulla tua bacheca per vedere tutte le persone che hai incrociato. Whistle è una applicazione che ti permette automaticamente di memorizzare tutti i profili degli utenti nelle tue vicinanze e di poter interagire con loro.</p>
-			</div>
-            <div class="screen1">
-				<img src="<?=$baseurl;?>assets/img/screen/screen1.png" style="width: 250px;">
+                <div class="screen"><div class="button-section"><a href="#start" class="active" role="button">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
+				<p style="width: 270px; text-align: center;margin-right:20px;">				<img src="<?=$baseurl;?>assets/img/icon_whistle.png" style="margin-bottom: 25px;"><br>Scorri sulla tua bacheca per vedere tutte le persone che hai incrociato. Whistle è una applicazione che ti permette automaticamente di memorizzare tutti i profili degli utenti nelle tue vicinanze e di poter interagire con loro.</p>
+				<img src="<?=$baseurl;?>assets/img/screen/screen1.png" style="width: 250px;margin-left:20px;">
 			</div>
 		</div>
     </div>
 </section>
 
-<section id="services" style="background: #ffffff; padding-top: 40px;">
+<section id="services" style="background: #ffffff; padding-top: 60px;">
 	<div class="container">
 		<div class="row">
-			<div class="text1">
-				<div style="padding-left: 150px; padding-top: 40px;">
-                    <p style="width: 270px; text-align: center;">
+			<div class="screen">
+                <div class="button-section"><a href="#start">1</a><a href="#services" class="active">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
+				<p style="width: 270px; text-align: center;margin-right:20px;">
 					<img src="<?=$baseurl;?>assets/img/icon_heart.png" style="margin-bottom: 25px;"><br>Scegli la tua prediletta e invia il tuo Whistle! Un Whistle è un apprezzamento virtuale, un gancio, che ti permetterà di suscitare l’interesse nelle persone che incontri.</p>
-				</div>
-			</div>
-			<div class="screen1">
-				<img src="<?=$baseurl;?>assets/img/screen/screen2.png" style="width: 250px;">
+				<img src="<?=$baseurl;?>assets/img/screen/screen2.png" style="width: 250px;margin-left:20px;">
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="no-padding" id="portfolio" style="margin-left: 20%; margin-right: 20%;">
+<section id="carrellata" style="padding-top:60px;">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-                <p style="width: 270px; text-align: center; color:#fff;">
+			<div class="screen">
+                <div class="button-section"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata" class="active" role="button">3</a><a href="#chat">4</a></div>
+                <p style="width: 270px; text-align: center;margin-right:20px;color:#fff;">
 				<img src="<?=$baseurl;?>assets/img/icon_page.png" style="margin-bottom: 25px;"><br>Un Whistle è anonimo. Ma non troppo. Quando ricevi un Whistle, dovrai indovinare chi tra 10 potenziali profili è quello che ti ha espresso l’apprezzamento, scegliendo a tua volta a chi inviare un 
 Whistle.</p>
-			</div>
-            			<div class="col-md-6">
-				<img src="<?=$baseurl;?>assets/img/screen/screen3.png" style="width: 250px;">
-			</div>
-		</div>
-	</div>
+				<img src="<?=$baseurl;?>assets/img/screen/screen3.png" style="width: 250px;margin-left:20px;">
+		  </div>
+	   </div>
+    </div>
 </section>
 
-<section id="chat" style="background: #ffffff; padding-top: 40px;">
+<section id="chat" style="background: #ffffff; padding-top: 60px;">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-                    <p style="width: 270px; text-align: center;">
+			<div class="screen">
+                <div class="button-section"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat" class="active" role="button">4</a></div>
+                    <p style="width: 270px; text-align: center;margin-right:20px;">
 					<img src="<?=$baseurl;?>assets/img/icon_chat.png" style="margin-bottom: 25px;"><br>Se 2 profili ricevono reciprocamente un Whistle, automaticamente si apre una chat. Chatta con chi risponde si tuoi Whistle!</p>
-			</div>
-			<div class="col-md-6">
-				<img src="<?=$baseurl;?>assets/img/screen/screen4.png" style="width: 250px;">
+				<img src="<?=$baseurl;?>assets/img/screen/screen4.png" style="width: 250px;margin-left:20px;">
 			</div>
 		</div>
 	</div>
 </section>
 
-<section id="contact" style="padding-top: 40px;">
+<section id="contact" style="padding-top: 60px;">
 	<div class="container">
 		<h3 class="header-contact">CHI SIAMO</h3>
 		<p class="title-contact" style="max-width:650px;margin:auto;">

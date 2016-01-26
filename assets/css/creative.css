@@ -582,6 +582,39 @@ footer p {
 }
 
 
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-section a {
+    display: block;
+    background: #EA3556;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    padding: 2px 13px;
+    font-size: 26px;
+    margin: 0px 100px 20px 0;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+}
+
+.button-section a:hover,  .button-section a:focus, .button-section a:active {
+    transform: scale(1.4);
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+a.active {
+    transform: scale(1.4);
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
 
 /* MOBILE */
 @media(max-width:767px) {
