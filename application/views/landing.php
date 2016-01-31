@@ -97,12 +97,12 @@
 	</div>
 </aside>
 
-<section id="start" class="bg-primary" style="padding-top: 40px;">
+<section id="start" class="bg-primary" style="padding-top: 60px;">
 	<div class="container">
 		<div class="row">
                 <div class="screen"><div class="button-section"><a href="#start" class="active" role="button">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
-				<p style="width: 270px; text-align: center;margin-right:20px;">				<img src="<?=$baseurl;?>assets/img/icon_whistle.png" style="margin-bottom: 25px;"><br>Scorri sulla tua bacheca per vedere tutte le persone che hai incrociato. Whistle è una applicazione che ti permette automaticamente di memorizzare tutti i profili degli utenti nelle tue vicinanze e di poter interagire con loro.</p>
-				<img src="<?=$baseurl;?>assets/img/screen/screen1.png" style="width: 250px;margin-left:20px;">
+				<p style="width: 270px; text-align: center;margin-right:3%;">				<img src="<?=$baseurl;?>assets/img/icon_whistle.png" style="margin-bottom: 25px;"><br>Scorri sulla tua bacheca per vedere tutte le persone che hai incrociato. Whistle è una applicazione che ti permette automaticamente di memorizzare tutti i profili degli utenti nelle tue vicinanze e di poter interagire con loro.</p>
+				<img src="<?=$baseurl;?>assets/img/screen/screen1.png" style="width: 250px;margin-left:4%;">
 			</div>
 		</div>
     </div>
@@ -113,9 +113,9 @@
 		<div class="row">
 			<div class="screen">
                 <div class="button-section"><a href="#start">1</a><a href="#services" class="active">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
-				<p style="width: 270px; text-align: center;margin-right:20px;">
+				<p style="width: 270px; text-align: center;margin-right:3%;">
 					<img src="<?=$baseurl;?>assets/img/icon_heart.png" style="margin-bottom: 25px;"><br>Scegli la tua prediletta e invia il tuo Whistle! Un Whistle è un apprezzamento virtuale, un gancio, che ti permetterà di suscitare l’interesse nelle persone che incontri.</p>
-				<img src="<?=$baseurl;?>assets/img/screen/screen2.png" style="width: 250px;margin-left:20px;">
+				<img src="<?=$baseurl;?>assets/img/screen/screen2.png" style="width: 250px;margin-left:4%;">
 			</div>
 		</div>
 	</div>
@@ -126,10 +126,10 @@
 		<div class="row">
 			<div class="screen">
                 <div class="button-section"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata" class="active" role="button">3</a><a href="#chat">4</a></div>
-                <p style="width: 270px; text-align: center;margin-right:20px;color:#fff;">
+                <p style="width: 270px; text-align: center;margin-right:3%;color:#fff;">
 				<img src="<?=$baseurl;?>assets/img/icon_page.png" style="margin-bottom: 25px;"><br>Un Whistle è anonimo. Ma non troppo. Quando ricevi un Whistle, dovrai indovinare chi tra 10 potenziali profili è quello che ti ha espresso l’apprezzamento, scegliendo a tua volta a chi inviare un 
 Whistle.</p>
-				<img src="<?=$baseurl;?>assets/img/screen/screen3.png" style="width: 250px;margin-left:20px;">
+				<img src="<?=$baseurl;?>assets/img/screen/screen3.png" style="width: 250px;margin-left:4%;">
 		  </div>
 	   </div>
     </div>
@@ -140,9 +140,9 @@ Whistle.</p>
 		<div class="row">
 			<div class="screen">
                 <div class="button-section"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat" class="active" role="button">4</a></div>
-                    <p style="width: 270px; text-align: center;margin-right:20px;">
+                    <p style="width: 270px; text-align: center;margin-right:3%;">
 					<img src="<?=$baseurl;?>assets/img/icon_chat.png" style="margin-bottom: 25px;"><br>Se 2 profili ricevono reciprocamente un Whistle, automaticamente si apre una chat. Chatta con chi risponde si tuoi Whistle!</p>
-				<img src="<?=$baseurl;?>assets/img/screen/screen4.png" style="width: 250px;margin-left:20px;">
+				<img src="<?=$baseurl;?>assets/img/screen/screen4.png" style="width: 250px;margin-left:4%;">
 			</div>
 		</div>
 	</div>
@@ -150,30 +150,74 @@ Whistle.</p>
 
 <section id="contact" style="padding-top: 60px;">
 	<div class="container">
-		<h3 class="header-contact">CHI SIAMO</h3>
+		<h2 class="header-contact">CHI SIAMO</h2>
+        
 		<p class="title-contact" style="max-width:650px;margin:auto;">
-            Neverland è il laboratorio R&D di <a href="http://www.lipariconsulting.com/">Lipari Consulting.</a>
-			Il laboratorio ha l’obiettivo di ideare e lanciare nel mercato prodotti e servizi innovativi dando
-			particolare attenzione agli ambiti digital e social.
+            <strong>Neverland</strong> è il laboratorio R&D di <a href="http://www.lipariconsulting.com/"><strong>Lipari Consulting.</strong></a><br>
+			Il laboratorio ha l’obiettivo di ideare e lanciare nel mercato prodotti e servizi innovativi dando particolare attenzione agli ambiti <strong>digital e social.</strong>
 		</p>
 		<p class="sub-title-contact">Il team è composto da:</p>
 
 		<div class="row info">
-			<div class="col-md-4">
+			<div class="col-sm-4">
+                    <div class="team-member">
 				<img src="<?=$baseurl;?>assets/img/volti/Giovanni.jpg" alt="" class="img-circle">
 				<h3>Giovanni Lipari</h3>
 				<p>CEO Lipari Consulting</p>
+                    </div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-sm-4">
+                    <div class="team-member">
 				<img src="<?=$baseurl;?>assets/img/volti/Salvo.png" alt="" class="img-circle">
 				<h3>Salvatore Naous</h3>
 				<p>Ricercatore</p>
+                    </div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-sm-4">
+                    <div class="team-member">
 				<img src="<?=$baseurl;?>assets/img/volti/Alessio.jpg" alt="" class="img-circle">
 				<h3>Alessio Vella</h3>
 				<p>Ricercatore</p>
+                    </div>
 			</div>
+		</div>
+
+		<div class="row info">
+			<div class="col-sm-4">
+                    <div class="team-member">
+				<img src="<?=$baseurl;?>assets/img/volti/Fasulo.png" alt="" class="img-circle">
+				<h3>Giuseppe Fasulo</h3>
+				<p>Ricercatore</p>
+                    </div>
+			</div>
+			<div class="col-sm-4">
+				    <div class="team-member">
+                <img src="<?=$baseurl;?>assets/img/volti/Fede.jpg" alt="" class="img-circle">
+				<h3>Federico Colletti</h3>
+				<p>Ricercatore</p>
+                    </div>
+			</div>
+			<div class="col-sm-4">
+                    <div class="team-member">
+				<img src="<?=$baseurl;?>assets/img/volti/Laura.jpg" alt="" class="img-circle">
+				<h3>Laura Musso</h3>
+				<p>Graphic Designer</p>
+                    </div>
+			</div>
+		</div>
+        
+        
+        <!--
+        		<div class="row info">
+				<img src="<?=$baseurl;?>assets/img/volti/Giovanni.jpg" alt="" class="img-circle">
+				<h3>Giovanni Lipari</h3>
+				<p>CEO Lipari Consulting</p>
+				<img src="<?=$baseurl;?>assets/img/volti/Salvo.png" alt="" class="img-circle">
+				<h3>Salvatore Naous</h3>
+				<p>Ricercatore</p>
+				<img src="<?=$baseurl;?>assets/img/volti/Alessio.jpg" alt="" class="img-circle">
+				<h3>Alessio Vella</h3>
+				<p>Ricercatore</p>
 		</div>
 
 		<div class="row info">
@@ -193,6 +237,11 @@ Whistle.</p>
 				<p>Graphic Designer</p>
 			</div>
 		</div>
+        
+        -->
+        
+        
+        
 	</div>
 </section>
 
