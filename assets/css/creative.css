@@ -520,9 +520,12 @@ body {
 footer p {
     text-align: center;
     margin-top: 23px;
-    color: #ffffff;
-    font-weight: 100;
+    color: #003867;
+    font-weight: 400;
     font-size: 14px;
+    margin: 0;
+    padding: 15px;
+    background-color: #fff;
 }
 
 .team-member {

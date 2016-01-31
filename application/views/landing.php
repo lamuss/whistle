@@ -246,7 +246,7 @@ Whistle.</p>
 </section>
 
 <footer>
-	<p>©[2015] Whistle · All rights reserved.</p>
+	<p>© 2015 Whistle · All rights reserved.<img src="http://localhost/php-workspace/whistle/assets/img/logo_lc.png" style="width: 100px; margin-top: -21px;"></p>
 </footer>
 
 <!-- jQuery -->
