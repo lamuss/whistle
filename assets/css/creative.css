@@ -8,10 +8,10 @@ html,
 body {
     background-image: url(../img/bg_body.png);
     background: url(../img/bg_body.png); /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#2DC3CC, #00C99F); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#2DC3CC, #00C99F); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#2DC3CC, #00C99F); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#2DC3CC, #00C99F);
+    background: -webkit-linear-gradient(#00C99F, #2DC3CC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00C99F, #2DC3CC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00C99F, #2DC3CC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00C99F, #2DC3CC);
     background-repeat: repeat-x;
     width: 100%;
   /*  height: 1000px; */
@@ -524,7 +524,7 @@ footer p {
     font-weight: 400;
     font-size: 14px;
     margin: 0;
-    padding: 15px;
+    padding: 15px 0 0 0;
     background-color: #fff;
 }
 

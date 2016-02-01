@@ -13,7 +13,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Creative - Start Bootstrap Theme</title>
+	<title>Whistle</title>
 
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="http://localhost/php-workspace/whistle/assets/css/bootstrap.min.css" type="text/css">
