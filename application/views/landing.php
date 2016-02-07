@@ -76,7 +76,7 @@
 
 <header>
 	<div class="header-content">
-		<p>Conosci le persone che incontri ogni giorno</p>
+		<p style="font-weight:400">Conosci le persone che incontri ogni giorno</p>
 		<a style="text-align: left; float: left; background: none; border: none;" href="#">
 			<img src="<?=$baseurl;?>assets/img/icon_google.png" style="width: 30%; margin-top: 20px;">
 		</a>
@@ -97,51 +97,66 @@
 	</div>
 </aside>
 
-<section id="start" class="bg-primary" style="padding-top: 60px;">
+<section id="start" class="bg-primary" style="padding-top: 60px;    background-image: url(http://localhost/php-workspace/whistle/assets/img/whistle_ribbon.png);
+    background-repeat: no-repeat;
+    background-position-y: 129px;
+    background-size: 111px;">
 	<div class="container">
 		<div class="row">
-                <div class="screen"><div class="button-section"><a href="#start" class="active" role="button">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
-				<p style="width: 270px; text-align: center;margin-right:3%;">				<img src="<?=$baseurl;?>assets/img/icon_whistle.png" style="margin-bottom: 25px;"><br>Scorri sulla tua bacheca per vedere tutte le persone che hai incrociato. Whistle è una applicazione che ti permette automaticamente di memorizzare tutti i profili degli utenti nelle tue vicinanze e di poter interagire con loro.</p>
+                <div class="screen" style="background-position-x: 8%;
+    background-position-y: 79px;"><div class="button-section"><a href="#start" class="active" role="button">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
+				<p class="description">				
+                    <img src="<?=$baseurl;?>assets/img/icon_whistle.png" style="margin-bottom: 25px;display: block;margin: 0 auto;"><br>
+                    <span style="font-size: 20px;font-weight: 400;">Scorri sulla tua bacheca<br>per vedere tutte le persone<br>che hai incrociato.</span><br><br>Whistle è una applicazione<br>che ti permette automaticamente<br>di memorizzare tutti i profili<br>degli utenti nelle tue vicinanze<br>e di poter interagire con loro.</p>
 				<img src="<?=$baseurl;?>assets/img/screen/screen1.png" style="width: 250px;margin-left:4%;">
 			</div>
 		</div>
     </div>
 </section>
 
-<section id="services" style="background: #ffffff; padding-top: 60px;">
+<section id="services" style="background: #ffffff; padding-top: 60px;background-image: url(http://localhost/php-workspace/whistle/assets/img/whistle_ribbon.png);
+    background-repeat: no-repeat;
+    background-position-y: -341px;
+    background-size: 111px;">
 	<div class="container">
 		<div class="row">
 			<div class="screen">
                 <div class="button-section"><a href="#start">1</a><a href="#services" class="active">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
-				<p style="width: 270px; text-align: center;margin-right:3%;">
-					<img src="<?=$baseurl;?>assets/img/icon_heart.png" style="margin-bottom: 25px;"><br>Scegli la tua prediletta e invia il tuo Whistle! Un Whistle è un apprezzamento virtuale, un gancio, che ti permetterà di suscitare l’interesse nelle persone che incontri.</p>
+				<p class="description">
+                    <img src="<?=$baseurl;?>assets/img/icon_heart.png" style="margin-bottom: 25px;display: block;margin: 0 auto;"><br><span style="font-size: 20px;font-weight: 400;">Scegli la tua prediletta<br>e invia il tuo Whistle!</span><br><br>Un Whistle è un apprezzamento<br>virtuale, un gancio, che ti permette<br>di suscitare l’interesse<br>nelle persone che incontri.</p>
 				<img src="<?=$baseurl;?>assets/img/screen/screen2.png" style="width: 250px;margin-left:4%;">
 			</div>
 		</div>
 	</div>
 </section>
 
-<section id="carrellata" style="padding-top:60px;">
+<section id="carrellata" style="padding-top:60px;    background-image: url(http://localhost/php-workspace/whistle/assets/img/whistle_ribbon.png);
+    background-repeat: no-repeat;
+    background-position-y: -812px;
+    background-size: 111px;">
 	<div class="container">
 		<div class="row">
 			<div class="screen">
                 <div class="button-section"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata" class="active" role="button">3</a><a href="#chat">4</a></div>
-                <p style="width: 270px; text-align: center;margin-right:3%;color:#fff;">
-				<img src="<?=$baseurl;?>assets/img/icon_page.png" style="margin-bottom: 25px;"><br>Un Whistle è anonimo. Ma non troppo. Quando ricevi un Whistle, dovrai indovinare chi tra 10 potenziali profili è quello che ti ha espresso l’apprezzamento, scegliendo a tua volta a chi inviare un 
-Whistle.</p>
+                <p class="description" style="color:#fff">
+				<img src="<?=$baseurl;?>assets/img/icon_page.png" style="margin-bottom: 25px;display: block;margin: 0 auto;"><br>
+                    <span style="font-size: 20px;font-weight: 400;">Un Whistle è anonimo.<br>Ma non troppo.</span><br><br>Quando ricevi un Whistle,<br> dovrai indovinare chi<br>tra 10 potenziali profili<br>è quello che ti ha espresso l’apprezzamento, scegliendo<br>a tua volta a chi inviare un Whistle.</p>
 				<img src="<?=$baseurl;?>assets/img/screen/screen3.png" style="width: 250px;margin-left:4%;">
 		  </div>
 	   </div>
     </div>
 </section>
 
-<section id="chat" style="background: #ffffff; padding-top: 60px;">
+<section id="chat" style="background: #ffffff; padding-top: 60px;    background-image: url(http://localhost/php-workspace/whistle/assets/img/whistle_ribbon.png);
+    background-repeat: no-repeat;
+    background-position-y: -1280px;
+    background-size: 111px;">
 	<div class="container">
 		<div class="row">
 			<div class="screen">
                 <div class="button-section"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat" class="active" role="button">4</a></div>
-                    <p style="width: 270px; text-align: center;margin-right:3%;">
-					<img src="<?=$baseurl;?>assets/img/icon_chat.png" style="margin-bottom: 25px;"><br>Se 2 profili ricevono reciprocamente un Whistle, automaticamente si apre una chat. Chatta con chi risponde si tuoi Whistle!</p>
+                    <p class="description">
+                        <img src="<?=$baseurl;?>assets/img/icon_chat.png" style="margin-bottom: 25px;display: block;margin: 0 auto;"><br>Se 2 profili ricevono<br>reciprocamente un Whistle,<br>automaticamente si apre una chat. <br><br><span style="font-size: 20px;font-weight: 400;">Chatta con chi risponde<br>ai tuoi Whistle!</span></p>
 				<img src="<?=$baseurl;?>assets/img/screen/screen4.png" style="width: 250px;margin-left:4%;">
 			</div>
 		</div>
@@ -154,7 +169,7 @@ Whistle.</p>
         
 		<p class="title-contact" style="max-width:650px;margin:auto;">
             <strong>Neverland</strong> è il laboratorio R&D di <a href="http://www.lipariconsulting.com/"><strong>Lipari Consulting.</strong></a><br>
-			Il laboratorio ha l’obiettivo di ideare e lanciare nel mercato prodotti e servizi innovativi dando particolare attenzione agli ambiti <strong>digital e social.</strong>
+			Il laboratorio ha l’obiettivo di ideare e lanciare nel mercato<br>,prodotti e servizi innovativi dando particolare attenzione agli ambiti <strong>digital e social.</strong>
 		</p>
 		<p class="sub-title-contact">Il team è composto da:</p>
 
@@ -207,46 +222,13 @@ Whistle.</p>
 		</div>
         
         
-        <!--
-        		<div class="row info">
-				<img src="<?=$baseurl;?>assets/img/volti/Giovanni.jpg" alt="" class="img-circle">
-				<h3>Giovanni Lipari</h3>
-				<p>CEO Lipari Consulting</p>
-				<img src="<?=$baseurl;?>assets/img/volti/Salvo.png" alt="" class="img-circle">
-				<h3>Salvatore Naous</h3>
-				<p>Ricercatore</p>
-				<img src="<?=$baseurl;?>assets/img/volti/Alessio.jpg" alt="" class="img-circle">
-				<h3>Alessio Vella</h3>
-				<p>Ricercatore</p>
-		</div>
-
-		<div class="row info">
-			<div class="col-md-4">
-				<img src="<?=$baseurl;?>assets/img/volti/Fasulo.png" alt="" class="img-circle">
-				<h3>Giuseppe Fasulo</h3>
-				<p>Ricercatore</p>
-			</div>
-			<div class="col-md-4">
-				<img src="<?=$baseurl;?>assets/img/volti/Fede.jpg" alt="" class="img-circle">
-				<h3>Federico Colletti</h3>
-				<p>Ricercatore</p>
-			</div>
-			<div class="col-md-4">
-				<img src="<?=$baseurl;?>assets/img/volti/Laura.jpg" alt="" class="img-circle">
-				<h3>Laura Musso</h3>
-				<p>Graphic Designer</p>
-			</div>
-		</div>
-        
-        -->
-        
         
         
 	</div>
 </section>
 
 <footer>
-	<p>© 2015 Whistle · All rights reserved.<img src="http://localhost/php-workspace/whistle/assets/img/logo_lc.png" style="width: 100px; margin-top: -21px;"></p>
+    <p>© 2015 Whistle · All rights reserved.<a href="http://www.lipariconsulting.com/"><img src="http://localhost/php-workspace/whistle/assets/img/logo_lc.png" style="width: 100px; margin-top: -21px;"></a></p>
 </footer>
 
 <!-- jQuery -->

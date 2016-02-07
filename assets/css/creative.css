@@ -56,6 +56,11 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 300;
+}
+
+b, strong {
+    font-weight: 500;
 }
 
 .bg-primary {
@@ -512,9 +517,6 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: #222;
-}
 
 
 footer p {
@@ -605,6 +607,18 @@ footer p {
     align-items: center;
 }
 
+
+
+
+}
+
+.description {
+    text-align: initial;
+    margin-right:3%;
+    font-weight:200;
+    width: 250px;
+    margin-left: 4%;
+}
 
 .button-section a {
     display: block;
