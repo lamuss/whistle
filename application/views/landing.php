@@ -140,7 +140,7 @@
                 <div class="button-section"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata" class="active" role="button">3</a><a href="#chat">4</a></div>
                 <p class="description" style="color:#fff">
 				<img src="<?=$baseurl;?>assets/img/icon_page.png" style="margin-bottom: 25px;display: block;margin: 0 auto;"><br>
-                    <span style="font-size: 20px;font-weight: 400;">Un Whistle è anonimo.<br>Ma non troppo.</span><br><br>Quando ricevi un Whistle,<br> dovrai indovinare chi<br>tra 10 potenziali profili<br>è quello che ti ha espresso l’apprezzamento, scegliendo<br>a tua volta a chi inviare un Whistle.</p>
+                    <span style="font-size: 20px;font-weight: 400;">Un Whistle è anonimo.<br>Ma non troppo.</span><br><br>Quando ricevi un Whistle,<br> dovrai indovinare chi<br>tra 10 potenziali profili<br>è quello che ti ha espresso<br> l’apprezzamento, scegliendo a tua<br> volta a chi inviare un Whistle.</p>
 				<img src="<?=$baseurl;?>assets/img/screen/screen3.png" style="width: 250px;margin-left:4%;">
 		  </div>
 	   </div>
