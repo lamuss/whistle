@@ -8,12 +8,18 @@
 <head>
 
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta property="og:title" content="Whistle" />
+    <meta property="og:image" content="http://localhost/php-workspace/whistle/assets/img/whistle_post.png" />
+    <meta property="og:url" content="http://www.gowhistle.it" />
+    <meta property="og:description" content="Conosci le persone che incontri ogni giorno. Scarica l'app dal Google Play!" />
+    
 
 	<title>Whistle</title>
+    <link rel="shortcut icon" href="http://localhost/php-workspace/whistle/assets/img/favicon.png" type="image/x-icon">
 
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="http://localhost/php-workspace/whistle/assets/css/bootstrap.min.css" type="text/css">
@@ -97,14 +103,12 @@
 	</div>
 </aside>
 
-<section id="start" class="bg-primary" style="padding-top: 60px;    background-image: url(http://localhost/php-workspace/whistle/assets/img/whistle_ribbon.png);
-    background-repeat: no-repeat;
-    background-position-y: 129px;
-    background-size: 111px;">
+<section id="start" class="bg-primary">
 	<div class="container">
 		<div class="row">
                 <div class="screen" style="background-position-x: 8%;
-    background-position-y: 79px;"><div class="button-section"><a href="#start" class="active" role="button">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
+    background-position-y: 79px;">
+                    <div class="button-section" style=" background-position-y: 122px;"><a href="#start" class="active" role="button">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
 				<p class="description">				
                     <img src="<?=$baseurl;?>assets/img/icon_whistle.png" style="margin-bottom: 25px;display: block;margin: 0 auto;"><br>
                     <span style="font-size: 20px;font-weight: 400;">Scorri sulla tua bacheca<br>per vedere tutte le persone<br>che hai incrociato.</span><br><br>Whistle è una applicazione<br>che ti permette automaticamente<br>di memorizzare tutti i profili<br>degli utenti nelle tue vicinanze<br>e di poter interagire con loro.</p>
@@ -114,14 +118,11 @@
     </div>
 </section>
 
-<section id="services" style="background: #ffffff; padding-top: 60px;background-image: url(http://localhost/php-workspace/whistle/assets/img/whistle_ribbon.png);
-    background-repeat: no-repeat;
-    background-position-y: -341px;
-    background-size: 111px;">
+<section id="services" style="background: #ffffff;">
 	<div class="container">
 		<div class="row">
 			<div class="screen">
-                <div class="button-section"><a href="#start">1</a><a href="#services" class="active">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
+                <div class="button-section" style=" background-position-y: -338px; "><a href="#start">1</a><a href="#services" class="active">2</a><a href="#carrellata">3</a><a href="#chat">4</a></div>
 				<p class="description">
                     <img src="<?=$baseurl;?>assets/img/icon_heart.png" style="margin-bottom: 25px;display: block;margin: 0 auto;"><br><span style="font-size: 20px;font-weight: 400;">Scegli la tua prediletta<br>e invia il tuo Whistle!</span><br><br>Un Whistle è un apprezzamento<br>virtuale, un gancio, che ti permette<br>di suscitare l’interesse<br>nelle persone che incontri.</p>
 				<img src="<?=$baseurl;?>assets/img/screen/screen2.png" style="width: 250px;margin-left:4%;">
@@ -130,14 +131,11 @@
 	</div>
 </section>
 
-<section id="carrellata" style="padding-top:60px;    background-image: url(http://localhost/php-workspace/whistle/assets/img/whistle_ribbon.png);
-    background-repeat: no-repeat;
-    background-position-y: -812px;
-    background-size: 111px;">
+<section id="carrellata">
 	<div class="container">
 		<div class="row">
 			<div class="screen">
-                <div class="button-section"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata" class="active" role="button">3</a><a href="#chat">4</a></div>
+                <div class="button-section" style="background-position-y: -798px;"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata" class="active" role="button">3</a><a href="#chat">4</a></div>
                 <p class="description" style="color:#fff">
 				<img src="<?=$baseurl;?>assets/img/icon_page.png" style="margin-bottom: 25px;display: block;margin: 0 auto;"><br>
                     <span style="font-size: 20px;font-weight: 400;">Un Whistle è anonimo.<br>Ma non troppo.</span><br><br>Quando ricevi un Whistle,<br> dovrai indovinare chi<br>tra 10 potenziali profili<br>è quello che ti ha espresso<br> l’apprezzamento, scegliendo a tua<br> volta a chi inviare un Whistle.</p>
@@ -147,14 +145,11 @@
     </div>
 </section>
 
-<section id="chat" style="background: #ffffff; padding-top: 60px;    background-image: url(http://localhost/php-workspace/whistle/assets/img/whistle_ribbon.png);
-    background-repeat: no-repeat;
-    background-position-y: -1280px;
-    background-size: 111px;">
+<section id="chat" style="background: #ffffff;">
 	<div class="container">
 		<div class="row">
 			<div class="screen">
-                <div class="button-section"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat" class="active" role="button">4</a></div>
+                <div class="button-section" style=" background-position-y: -1258px;"><a href="#start">1</a><a href="#services">2</a><a href="#carrellata">3</a><a href="#chat" class="active" role="button">4</a></div>
                     <p class="description">
                         <img src="<?=$baseurl;?>assets/img/icon_chat.png" style="margin-bottom: 25px;display: block;margin: 0 auto;"><br>Se 2 profili ricevono<br>reciprocamente un Whistle,<br>automaticamente si apre una chat. <br><br><span style="font-size: 20px;font-weight: 400;">Chatta con chi risponde<br>ai tuoi Whistle!</span></p>
 				<img src="<?=$baseurl;?>assets/img/screen/screen4.png" style="width: 250px;margin-left:4%;">

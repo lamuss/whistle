@@ -607,9 +607,8 @@ footer p {
     align-items: center;
 }
 
-
-
-
+.screen img {
+    margin-top: 48px;
 }
 
 .description {
@@ -618,6 +617,15 @@ footer p {
     font-weight:200;
     width: 250px;
     margin-left: 4%;
+    width: 246px;
+}
+
+
+.button-section {
+    background-image: url(http://localhost/php-workspace/whistle/assets/img/whistle_ribbon.png); background-repeat: no-repeat;
+    background-size: 106px;
+    height:460px;
+    padding:120px 0 0 30px;    
 }
 
 .button-section a {
@@ -671,6 +679,12 @@ a.active {
     
     .screen {
         display: inline-block;
+    }
+    
+    .button-section {
+        background-image:none;
+        height: auto;
+        padding:40px 0 0 0;
     }
     
     .row {
